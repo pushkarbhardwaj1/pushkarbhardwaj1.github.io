@@ -7,114 +7,127 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-<div class="div">
-    <div class="div-2">
-      <div class="div-3">
-      <div class="div-photo"><img
-        loading="lazy"
-        src="photo.jpg" style="width: 100%; border-radius: 10px;"/></div>
-        <div class="div-4">INTERESTS</div>
-        <div class="div-5">
-          <ul>
-            <li>NLP</li>
-            <li>Deep Learning</li>
-            <li>Machine Learning</li>
-          </ul>
-        </div>
-        <div class="div-6">TOOLS</div>
-        <div class="div-7">
-          <ul>
-            <li>Tensorflow</li>
-            <li>PyTorch</li>
-            <li>Pandas</li>
-            <li>Seaborn</li>
-            <li>Python</li>
-            <li>HTML</li>
-            <li>MS Office</li>
-          </ul>
-        </div>
+  <div class="Background">
+    <div class="DP"><img
+      loading="lazy"
+      src="photo.jpg"/>
+    </div>
+    <div class="Panel">
+      <div class="Interests">
+        INTERESTS
       </div>
-      <div class="div-8">
-        <div class="div-9">Pushkar Bhardwaj</div>
-        <div class="div-10">
-          Pursuing PhD, Computer Science & Engineering, IITK
-          <br />
-          MTech, Mechatronics, IIEST Shibpur
-          <br />
-          BTech, Mechanical Engineering, GLBITM
-        </div>
-        <div class="div-11">
-          As a first-year PhD scholar, the primary focus of my research under Dr.
-          Ashutosh Modi is Natural Language Programming for text and speech and
-          its immense potential for efficient and human-computer understanding.
-          <br />
-          In addition to this, I would also like to explore the amalgamation of
-          natural language processing with computer vision to enable systems
-          develop an accurate and robust understanding of real-world ecosystems.
-          <br />
-          In the past, I worked with CNNs to model fault diagnosis for rotating
-          machinery for my MTech project and build a quadcopter operable beyond
-          line of sight for my BTech project.
-        </div>
+      <div class="I-list">
+        <ul>
+          <li>NLP</li>
+          <li>Deep Learning</li>
+          <li>Machine Learning</li>
+        </ul>
       </div>
-      <div class="div-12">
-        <a href="mailto:pushkarb23@iitk.ac.in">
-          <div class="gmail-icon-div">
-            <img src="gmail.png"
-                loading="lazy" width="100%", height="33%" 
-              />
-          </div>
-        </a>
-        <a href="https://github.com/pushkarbhardwaj1">
-          <div class="div-13">
-            <img src="github.png"
-              loading="lazy" width="100%", height="33%" 
+      <div class="Tools">TOOLS</div>
+      <div class="T-list">
+        <ul>
+          <li>Tensorflow</li>
+          <li>PyTorch</li>
+          <li>Pandas</li>
+          <li>Seaborn</li>
+          <li>Python</li>
+          <li>HTML</li>
+          <li>MS Office</li>
+        </ul>
+      </div>
+    </div>
+    <div class="Contents">
+      <div class="Name">Pushkar Bhardwaj</div>
+      <div class="Education">
+        Pursuing PhD, Computer Science & Engineering, IITK
+        <br />
+        MTech, Mechatronics, IIEST Shibpur
+        <br />
+        BTech, Mechanical Engineering, GLBITM
+      </div>
+      <div class="Description">
+        As a first-year PhD scholar, the primary focus of my research under Dr.
+        Ashutosh Modi is Natural Language Programming for text and speech and
+        its immense potential for efficient and human-computer understanding.
+        <br />
+        In addition to this, I would also like to explore the amalgamation of
+        natural language processing with computer vision to enable systems
+        develop an accurate and robust understanding of real-world ecosystems.
+        <br />
+        In the past, I worked with CNNs to model fault diagnosis for rotating
+        machinery for my MTech project and build a quadcopter operable beyond
+        line of sight for my BTech project.
+      </div>
+    </div>
+    <div class="LinkBar">
+      <a href="mailto:pushkarb23@iitk.ac.in">
+        <div class="Gmail">
+          <img src="gmail.png"
+              loading="lazy"
+              class="GmailImg" 
             />
-          </div>
-        </a>
-        <a href="https://www.linkedin.com/in/pushkar-bhardwaj-549550117/">
-          <div class="div-14">
-            <img src="linkedin.png"
-              loading="lazy" width="100%", height="33%" 
-            />
-          </div>
-        </a>
-      </div>
+        </div>
+      </a>
+      <a href="https://github.com/pushkarbhardwaj1">
+        <div class="Github">
+          <img src="github.png"
+            loading="lazy"
+            class="GithubImg" 
+          />
+        </div>
+      </a>
+      <a href="https://www.linkedin.com/in/pushkar-bhardwaj-549550117/">
+        <div class="LinkedIn">
+          <img src="linkedin.png"
+            loading="lazy"
+            class="LinkedInImg"
+          />
+        </div>
+      </a>
     </div>
   </div>
   <style>
     body{
       margin: 0;
     }
-    .div {
-      opacity: 1;
-      width: 100vw;
-      height: 100vh;
-      background-color: #fff;
-    }
-    .div-2 {
-      display: flex;
-      column-gap: 40px !important;
-      background-color: #ceeab2;
-      width: 100%;
-      height: 100%;
-      /* display: flex; */
-      /* width: 100%; */
-      justify-content: space-between;
-      /* gap: 20px; */
-      /* padding: 0 20px; */
-    }
-    @media (max-width: 991px) {
-      .div-2 {
-        max-width: 100%;
-        flex-wrap: wrap;
-        justify-content: center;
+    @media (max-width: 700px){
+      body{width: 100vw;
+        margin: 0px;
+        height: fit-content;
       }
     }
-    .div-3 {
+    .Background {
+      display: grid;
+      grid-template-areas: 
+      "dp contents linkbar"
+      "panel contents linkbar"
+      "panel contents linkbar";
+      column-gap: 40px !important;
+      background-color: #ceeab2;
+      width: 100vw;
+      height: 100vh;
+      justify-content: space-between;
+    }
+    @media (max-width: 700px) {
+      .Background {
+        display: grid;
+      grid-template-areas: 
+      "dp linkbar"
+      "contents linkbar"
+      "panel linkbar";
+        width: 100vw;
+        height: fit-content;
+        align-items: end;
+        /* flex-direction: column; */
+        /* justify-content: center;
+        position: relative; */
+      }
+    }
+    .Panel {
+      grid-area: panel;
       background-color: #303030;
       width: 19.05vw;
-      height: 100vh;
+      /* height: 100vh; */
       overflow: hidden;
       display: block;
       /* display: flex;
@@ -122,19 +135,54 @@
       flex-direction: column; */
       /* padding: 50px; */
     }
-    @media (max-width: 991px) {
-      .div-3 {
-        padding: 0 20px;
+    @media (max-width: 700px) {
+      .Panel {
+        grid-area: panel;
+        width: 100vw;
+        /* height: 100%; */
+        padding: None;
+
       }
     }
-    .div-photo {
+    .DP {
+      grid-area: dp;
+      width: 19.05vw;
+      padding-top: 35px;
+      overflow: hidden;
+      display: flex;
+      background-color: #303030;
+    }
+    @media (max-width: 700px){
+      .DP {
+        grid-area: dp;
+        /* position: absolute; */
+        padding-top: 0px;
+        inset: 0;
+        border-radius: 0px;
+        margin-top: 0;
+        width: 100vw;
+        object-fit: cover;
+        object-position: center;
+        overflow: hidden;
+      }
+    }
+    .DP img {
       width: 70%;
-      margin-top: 35px;
+      border-radius: 12px 12px 12px 12px;
       justify-self: center;
       margin-left: auto;
       margin-right: auto;
     }
-    .div-4 {
+    @media screen and (max-width: 700px) {
+      .DP img {
+        width: 100%;
+        border-radius: 0px;
+        justify-self: center;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+    .Interests {
       color: #e9eab2;
       text-align: center;
       margin-top: 30px;
@@ -142,13 +190,13 @@
       font: 700 24px/28px Times New Roman, -apple-system, Roboto, Helvetica,
         sans-serif;
     }
-    @media (max-width: 991px) {
-      .div-4 {
-        margin-top: 40px;
-        white-space: initial;
+    @media (max-width: 700px) {
+      .Interests {
+        text-align: center;
+        margin-top: 20px;
       }
     }
-    .div-5 {
+    .I-list {
       color: #fff;
       width: 70%;
       margin: auto;
@@ -156,7 +204,13 @@
       font: 700 20px/24px Times New Roman, -apple-system, Roboto, Helvetica,
         sans-serif;
     }
-    .div-6 {
+    @media (max-width: 700px){
+      .I-list{
+        width: 100%;
+        margin-top: -7px;
+      }
+    }
+    .Tools {
       color: #e9eab2;
       text-align: center;
       margin-top: 50px;
@@ -164,13 +218,13 @@
       font: 700 24px/28px Times New Roman, -apple-system, Roboto, Helvetica,
         sans-serif;
     }
-    @media (max-width: 991px) {
-      .div-6 {
-        margin-top: 40px;
-        white-space: initial;
+    @media (max-width: 700px) {
+      .Tools {
+        text-align: center;
+        margin-top: 20px;
       }
     }
-    .div-7 {
+    .T-list {
       color: #fff;
       margin: -7px 0px;
       width: 70%;
@@ -178,14 +232,16 @@
       font: 700 20px/24px Times New Roman, -apple-system, Roboto, Helvetica,
         sans-serif;
     }
-    @media (max-width: 991px) {
-      .div-7 {
-        margin-bottom: 40px;
+    @media (max-width: 700px) {
+      .T-list {
+        width: 100%;
+        margin-top: -7px;
       }
     }
-    .div-8 {
+    .Contents {
+      grid-area: contents;
       align-self: center;
-      width: 56.23%;
+      width: 69.23%;
       /* height: 100vh; */
       overflow: hidden;
       /* height: 61.94%; */
@@ -193,17 +249,22 @@
       /* flex-grow: 1;
       flex-basis: 0%; */
       flex-direction: column;
-      gap: 60px;
-      margin-top: auto;
-      margin-bottom: auto;
+      gap: 50px;
+      margin: auto;
+      /* margin-top: auto; */
+      /* margin-bottom: auto; */
       /* margin: auto 0; */
     }
-    @media (max-width: 991px) {
-      .div-8 {
-        max-width: 100%;
+    @media (max-width: 700px) {
+      .Contents {
+        grid-area: contents;
+        width: 100%;
+        padding: 20px 0px;
+        grid-gap: 30px;
+
       }
     }
-    .div-9 {
+    .Name {
       color: #000;
       text-align: center;
       /* margin-top: 35px; */
@@ -211,15 +272,14 @@
       white-space: nowrap;
       font: 700 64px/77px Inter, sans-serif;
     }
-    @media (max-width: 991px) {
-      .div-9 {
-        max-width: 100%;
+    @media (max-width: 700px) {
+      .Name {
+        text-align: center;
         font-size: 40px;
         line-height: 53px;
-        white-space: initial;
       }
     }
-    .div-10 {
+    .Education {
       color: #3D3D3D;
       text-align: center;
       /* max-width: 713px; */
@@ -227,13 +287,18 @@
       /* margin-top: 134px; */
       font: 400 28px/32px K2D, sans-serif;
     }
-    @media (max-width: 991px) {
-      .div-10 {
-        max-width: 100%;
-        margin-top: 40px;
+    @media (max-width: 700px) {
+      .Education {
+        text-align: center;
+        font-size: 12px;
+        font-family:Arial, Helvetica, sans-serif;
+        line-height:normal;
+        /* margin-top: 20px; */
+        padding-left: 1em;
+        padding-right: 52px;
       }
     }
-    .div-11 {
+    .Description {
       color: #3D3D3D;
       text-align: justify;
       /* margin-top: 127px; */
@@ -242,34 +307,45 @@
         /* padding-right: 200%;
         padding-left: 200%; */
     }
-    @media (max-width: 991px) {
-      .div-11 {
-        max-width: 100%;
-        margin-top: 40px;
+    @media (max-width: 700px) {
+      .Description {
+        text-align: justify;
+        padding-left: 1em;
+        padding-right: 52px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
       }
     }
-    .div-12 {
+    .LinkBar {
+      grid-area: linkbar;
       border-radius: 10px 0px 0px 10px;
-      width: 6.49%;
+      width: 6.49vw;
       background-color: #303030;
       align-self: center;
-      /* display: flex;
-      flex-basis: 0%; */
+      /* display: flex; */
+      /* flex-basis: 0%; */
       /* padding-top: 23px; */
       /* flex-direction: column; */
       align-items: center;
       margin: auto 0;
     }
-    .img-2 {
-      aspect-ratio: 1;
-      object-fit: contain;
-      object-position: center;
-      width: 60px;
-      overflow: hidden;
-      max-width: 6.49%;
+    @media (max-width: 700px){
+      .LinkBar{
+        grid-area: linkbar;
+        position: fixed;
+        width: fit-content;
+        /* display: flex; */
+        justify-content: space-around;
+        align-items: center;
+        background-color: #303030;
+        /* border-radius: 0 0 10px 10px; */
+        flex-direction: column;
+        right: 0;
+        top: calc(50% - 122px);
+      }
     }
-    .div-13 {
-      background-color: rgba(255, 255, 255, 0.13);
+    .Gmail {
+      /* background-color: rgba(255, 255, 255, 0.13); */
       align-self: stretch;
       display: flex;
       /* margin-top: 34px; */
@@ -277,14 +353,56 @@
       align-items: center;
       padding: 8px 20px;
     }
-    .img-3 {
+    @media (max-width: 700px){
+      .Gmail {
+        /* background-color: rgba(255, 255, 255, 0.2); */
+        padding: 8px 0px;
+        border-radius: 10px;
+      }
+    }
+    .GmailImg {
+      width: 60px;
+        height: auto;
+    }
+    @media (max-width: 700px){
+      .GmailImg {
+        /* background-color: rgba(255, 255, 255, 0.2); */
+        /* padding: 8px 20px; */
+        border-radius: 10px;
+        width: 30px;
+        height: auto;
+      }
+    }
+    .Github {
+      background-color: rgba(255, 255, 255, 0.12);
+      align-self: stretch;
+      display: flex;
+      /* margin-top: 34px; */
+      flex-direction: column;
+      align-items: center;
+      padding: 8px 20px;
+    }
+    @media (max-width: 700px){
+      .Github {
+        /* background-color: rgba(255, 255, 255, 0.2); */
+        padding: 8px 0px;
+        /* border-radius: 10px; */
+      }
+    }
+    .GithubImg {
       aspect-ratio: 1;
       object-fit: contain;
       object-position: center;
       width: 60px;
       overflow: hidden;
     }
-    .div-14 {
+    @media (max-width: 700px){
+      .GithubImg {
+        width: 30px;
+        height: auto;
+      }
+    }
+    .LinkedIn {
       border-radius: 0px 0px 0px 10px;
       background-color: rgba(255, 255, 255, 0.2);
       align-self: stretch;
@@ -293,16 +411,36 @@
       align-items: center;
       padding: 8px 20px;
     }
-    .img-4 {
+    @media (max-width: 700px){
+        .LinkedIn {
+          /* background-color: rgba(255, 255, 255, 0.2); */
+          padding: 8px 8px;
+          /* border-radius: 10px; */
+        }
+    }
+    .LinkedInImg {
       aspect-ratio: 1;
       object-fit: contain;
       object-position: center;
       width: 60px;
       overflow: hidden;
     }
-    .gmail-icon-div {
+    @media (max-width: 700px){
+      .LinkedInImg {
+        width: 30px;
+        height: auto;
+      }
+    }
+    /* .Gmail {
       padding: 8px 20px;
     }
+    @media (max-width: 700px){
+      .Gmail {
+        background-color: rgba(255, 255, 255, 0.2);
+        padding: 8px 20px;
+        border-radius: 10px;
+      }
+    } */
   </style>  
 </body>
 </html>
